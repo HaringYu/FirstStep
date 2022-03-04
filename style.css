@@ -1,8 +1,30 @@
 p{
     font-size: 20px;
+    text-align: center;
     background-color: brown;
+}
+.error{
+    background-color: pink;
+}
+.warning{
+    background-color: lightblue;
+}
+.info{
+    background-color: lightyellow;
+}
+#critical{
+    font-size: 30px;
+    color: white;
+    background-color: red;
+}
+p.info{
+    background-color: aquamarine;
+}
+body p.info{
+    background-color: silver;
 }
 h1{
     background-color: antiquewhite;
-    color:aqua
+    text-align: center;
+    color:violet
 }
